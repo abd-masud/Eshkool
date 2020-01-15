@@ -1,0 +1,86 @@
+/* =================== Animation Start =================== */
+
+/* Banner slide Start */
+@keyframes bannerfirst{
+	0%{
+		opacity: 0;
+		margin-top: -50px;
+	}
+	100%{
+		margin-top: 0;
+		opacity: 1;
+	}
+} 
+@keyframes bannersecond{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		transform: scale(2);
+		opacity: 0;
+	}
+	100%{
+		transform: scale(1);
+		opacity: 1;
+	}
+} 
+@keyframes bannerthird{
+	0%{
+		opacity: 0;
+	}
+	33%{
+		opacity: 0;
+	}
+	67%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+} 
+@keyframes bannerforth{
+	0%{
+		opacity: 0;
+	}
+	25%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0;
+	}
+	75%{
+		transform: scale(.2);
+		opacity: 0;
+	}
+	100%{
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+/* Banner slide End */
+
+/* Feature Icon Start */
+@keyframes featureicon{
+	0%{
+		transform: scale(.2);
+		opacity: .2;
+	}
+	100%{
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+/* Feature Icon End */
+
+/* Footer Contact Icon End */
+@keyframes footericon{
+	0%{
+		transform: scale(.2);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+/* Footer Contact Icon End */
+
+/* ==================== Animation End ==================== */
